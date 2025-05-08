@@ -1,0 +1,128 @@
+@media (max-width: 739px) {
+  .bio-wrapper {
+    height: auto;
+  }
+
+  .item-wrapper {
+    width: 90%;
+  }
+
+  .brand-information .brand-avatar {
+    width: 30%;
+  }
+
+  .brand-link_item li a {
+    padding: 1.2rem 0;
+  }
+
+  .brand-link_item li a img {
+    width: 12%;
+    margin-left: 0.3rem;
+  }
+
+  .brand-link_item li a span {
+    font-size: 1rem;
+    padding-left: 1.2rem;
+  }
+
+  .brand-link_icons ul li {
+    margin: 0.5rem 1rem;
+    font-size: 1.4rem;
+  }
+
+  .brand-information .brand-content {
+    font-size: 1.2rem;
+  }
+
+  .overlay-open-share .modal {
+    width: 90%;
+    padding: 1rem 1rem 5rem 1rem;
+  }
+
+  .overlay-open-share .modal .content-top {
+    padding: 0 0 1rem 0;
+  }
+
+  .modal-body {
+    padding: 1rem 0.5rem;
+    flex-direction: column;
+  }
+
+  .flip-card {
+    width: 40%;
+    height: 130px;
+  }
+
+  .modal-body .modal-link-wrapper a {
+    justify-content: space-evenly;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .modal-body .modal-link-wrapper {
+    width: 80%;
+    margin-top: 1rem;
+  }
+
+  .copy-input {
+    flex: 0;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    text-overflow: ellipsis;
+    max-width: 50%;
+  }
+  .icon-link-copy {
+    left: 8%;
+  }
+
+  .copy-wrapper {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .copy-button {
+    padding: 0.6rem 1.5rem;
+  }
+
+  .modal-body .modal-link-wrapper a svg {
+    margin-right: 1.5rem;
+  }
+}
+
+@media (max-width: 1023px) {
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  .item-wrapper {
+    width: 80%;
+  }
+
+  .brand-information .brand-avatar {
+    width: 15%;
+  }
+
+  .brand-link_item li a {
+    padding: 1.5rem 0;
+  }
+
+  .brand-link_item li a img {
+    width: 9%;
+  }
+
+  .brand-link_icons ul li {
+    margin: 0.5rem 1rem;
+    font-size: 1.6rem;
+  }
+
+  .overlay-open-share .modal {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .brand-link_item li a img {
+    width: 8%;
+  }
+}
