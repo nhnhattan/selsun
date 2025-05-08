@@ -15,8 +15,12 @@
     padding: 1.2rem 0;
   }
 
+  .brand-link_item li {
+    width: 75%;
+  }
+
   .brand-link_item li a img {
-    width: 12%;
+    width: 17%;
     margin-left: 0.3rem;
   }
 
@@ -108,7 +112,7 @@
   }
 
   .brand-link_item li a img {
-    width: 9%;
+    width: 16%;
   }
 
   .brand-link_icons ul li {
@@ -123,6 +127,6 @@
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .brand-link_item li a img {
-    width: 8%;
+    width: 21%;
   }
 }
